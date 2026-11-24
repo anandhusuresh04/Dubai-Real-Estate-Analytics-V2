@@ -1,0 +1,17 @@
+metric,artifact,rq,unit,cohort,grain,allowed_filters,operation,caveat
+registered_count,market_yearly,RQ04,transactions,P0,year,year,sum_disjoint,"Registered transactions, not unique properties"
+registered_value_aed,market_yearly,RQ04,AED,P0,year,year,sum_disjoint,"Nominal registered consideration, not market cap"
+offplan_count_share,03_registration_annual,RQ05,percent,P0,year;reg_type_label,year,exact,Use declared Ready/Off-Plan denominator
+community_hhi,03_community_concentration_yearly,RQ04,0–1,P0 known geography,year;universe_id,year;universe_id,exact,Never recompute from incomplete top-community sample
+residential_median_psm,02_raw_residential_price_yearly,RQ01,AED/sqm,P1 Strict,year,year,exact,"Transaction median, not ratio of medians"
+matched_price_change,02_price_index_endpoint,RQ01,percent,P2 matched,design;base_year;end_year,design;base_year;end_year,exact,"Restricted common support, not repeat sales"
+nominal_budget_share,budget_accessibility,RQ03,percent,P1 Strict,year;budget_aed,year;budget_aed,exact,"Observed transactions, not current affordability"
+upper_tail_value_share,price_tail_concentration,RQ14,percent,P1 Strict,year;tail_rule,year;tail_rule,exact,
+community_matched_growth,04_growth_validated,RQ07,percent,P2 eligible community,area_id;base_year;end_year,area_id;base_year;end_year,exact,Only approved eligible communities
+community_dispersion,04_dispersion_yearly,RQ08,log spread,fixed eligible universe,year;universe_id,year;universe_id,exact,
+community_regime,04_activity_price_regimes,RQ09,category,supported community,area_id;period,area_id;period,exact,
+community_stability,04_price_stability,RQ13,historical dispersion,supported community,area_id;window,area_id;window,exact,
+ready_offplan_matched_gap,05_offplan_ready_matched_gap,RQ11,percent,P2 matched,design;period,design;period,exact,Observational; not a causal premium
+size_elasticity,05_size_price_linear_models,RQ10,elasticity,P1 Strict model sample,property_type_label;model_id,property_type_label;model_id,exact,
+bedroom_association,05_bedroom_adjusted,RQ12,percent,supported Ready Unit sample,contrast;model_id,contrast;model_id,exact,Only support-approved contrasts
+rq15_sensitivity,06_research_sensitivity,RQ15,scenario-specific,multiple declared,rq_id;scenario,rq_id;scenario,exact,

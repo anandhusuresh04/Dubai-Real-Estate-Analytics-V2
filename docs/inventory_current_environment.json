@@ -1,0 +1,634 @@
+{
+  "repository": "/mnt/data/dashboard_phase1",
+  "artifacts_total": 69,
+  "structure_verified": 0,
+  "not_verified": 69,
+  "claim_gate": {
+    "status": "BLOCKED",
+    "detail": "ArtifactError: Missing artifact: data/aggregates/06_reproducibility_acceptance.parquet"
+  },
+  "artifacts": [
+    {
+      "key": "01_budget_summary",
+      "path": "reports/tables/01_budget_summary.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/01_budget_summary.csv"
+    },
+    {
+      "key": "01_market_summary",
+      "path": "reports/tables/01_market_summary.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/01_market_summary.csv"
+    },
+    {
+      "key": "01_price_tail_summary",
+      "path": "reports/tables/01_price_tail_summary.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/01_price_tail_summary.csv"
+    },
+    {
+      "key": "01_research_findings",
+      "path": "reports/tables/01_research_findings.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/01_research_findings.csv"
+    },
+    {
+      "key": "02_area_mix_decomposition",
+      "path": "data/aggregates/02_area_mix_decomposition.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_area_mix_decomposition.parquet"
+    },
+    {
+      "key": "02_price_index_endpoint",
+      "path": "data/aggregates/02_price_index_endpoint.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_price_index_endpoint.parquet"
+    },
+    {
+      "key": "02_price_index_historical",
+      "path": "data/aggregates/02_price_index_historical.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_price_index_historical.parquet"
+    },
+    {
+      "key": "02_price_index_historical_coverage",
+      "path": "data/aggregates/02_price_index_historical_coverage.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_price_index_historical_coverage.parquet"
+    },
+    {
+      "key": "02_price_index_specification_sensitivity",
+      "path": "data/aggregates/02_price_index_specification_sensitivity.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_price_index_specification_sensitivity.parquet"
+    },
+    {
+      "key": "02_price_mix_decomposition",
+      "path": "data/aggregates/02_price_mix_decomposition.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_price_mix_decomposition.parquet"
+    },
+    {
+      "key": "02_price_research_decisions",
+      "path": "reports/tables/02_price_research_decisions.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/02_price_research_decisions.csv"
+    },
+    {
+      "key": "02_raw_residential_price_yearly",
+      "path": "data/aggregates/02_raw_residential_price_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_raw_residential_price_yearly.parquet"
+    },
+    {
+      "key": "02_residential_size_mix",
+      "path": "data/aggregates/02_residential_size_mix.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/02_residential_size_mix.parquet"
+    },
+    {
+      "key": "03_activity_geography_coverage",
+      "path": "data/aggregates/03_activity_geography_coverage.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_activity_geography_coverage.parquet"
+    },
+    {
+      "key": "03_activity_lead_lag_validation",
+      "path": "data/aggregates/03_activity_lead_lag_validation.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_activity_lead_lag_validation.parquet"
+    },
+    {
+      "key": "03_activity_period_panel",
+      "path": "data/aggregates/03_activity_period_panel.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_activity_period_panel.parquet"
+    },
+    {
+      "key": "03_community_concentration_yearly",
+      "path": "data/aggregates/03_community_concentration_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_community_concentration_yearly.parquet"
+    },
+    {
+      "key": "03_community_universe_sensitivity",
+      "path": "data/aggregates/03_community_universe_sensitivity.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_community_universe_sensitivity.parquet"
+    },
+    {
+      "key": "03_registration_annual",
+      "path": "data/aggregates/03_registration_annual.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_registration_annual.parquet"
+    },
+    {
+      "key": "03_registration_growth_contributions",
+      "path": "data/aggregates/03_registration_growth_contributions.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/03_registration_growth_contributions.parquet"
+    },
+    {
+      "key": "03_research_findings",
+      "path": "reports/tables/03_research_findings.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/03_research_findings.csv"
+    },
+    {
+      "key": "04_activity_price_regimes",
+      "path": "data/aggregates/04_activity_price_regimes.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_activity_price_regimes.parquet"
+    },
+    {
+      "key": "04_activity_year_panel",
+      "path": "data/aggregates/04_activity_year_panel.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_activity_year_panel.parquet"
+    },
+    {
+      "key": "04_dispersion_yearly",
+      "path": "data/aggregates/04_dispersion_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_dispersion_yearly.parquet"
+    },
+    {
+      "key": "04_growth_ineligible",
+      "path": "data/aggregates/04_growth_ineligible.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_growth_ineligible.parquet"
+    },
+    {
+      "key": "04_growth_validated",
+      "path": "data/aggregates/04_growth_validated.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_growth_validated.parquet"
+    },
+    {
+      "key": "04_identity_registry",
+      "path": "data/aggregates/04_identity_registry.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_identity_registry.parquet"
+    },
+    {
+      "key": "04_matching_decisions",
+      "path": "data/aggregates/04_matching_decisions.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_matching_decisions.parquet"
+    },
+    {
+      "key": "04_price_stability",
+      "path": "data/aggregates/04_price_stability.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_price_stability.parquet"
+    },
+    {
+      "key": "04_research_findings",
+      "path": "reports/tables/04_research_findings.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/04_research_findings.csv"
+    },
+    {
+      "key": "04_stability_reliability",
+      "path": "data/aggregates/04_stability_reliability.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_stability_reliability.parquet"
+    },
+    {
+      "key": "04_yearly_profile",
+      "path": "data/aggregates/04_yearly_profile.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/04_yearly_profile.parquet"
+    },
+    {
+      "key": "05_bedroom_adjusted",
+      "path": "data/aggregates/05_bedroom_adjusted.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_bedroom_adjusted.parquet"
+    },
+    {
+      "key": "05_bedroom_contrast_support",
+      "path": "data/aggregates/05_bedroom_contrast_support.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_bedroom_contrast_support.parquet"
+    },
+    {
+      "key": "05_offplan_ready_matched_gap",
+      "path": "data/aggregates/05_offplan_ready_matched_gap.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_offplan_ready_matched_gap.parquet"
+    },
+    {
+      "key": "05_parking_overlap_feasibility",
+      "path": "data/aggregates/05_parking_overlap_feasibility.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_parking_overlap_feasibility.parquet"
+    },
+    {
+      "key": "05_registration_cluster_uncertainty",
+      "path": "data/aggregates/05_registration_cluster_uncertainty.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_registration_cluster_uncertainty.parquet"
+    },
+    {
+      "key": "05_registration_gap_yearly",
+      "path": "data/aggregates/05_registration_gap_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_registration_gap_yearly.parquet"
+    },
+    {
+      "key": "05_registration_matched_cells",
+      "path": "data/aggregates/05_registration_matched_cells.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_registration_matched_cells.parquet"
+    },
+    {
+      "key": "05_registration_matching_coverage",
+      "path": "data/aggregates/05_registration_matching_coverage.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_registration_matching_coverage.parquet"
+    },
+    {
+      "key": "05_research_findings",
+      "path": "reports/tables/05_research_findings.csv",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: reports/tables/05_research_findings.csv"
+    },
+    {
+      "key": "05_size_price_binned",
+      "path": "data/aggregates/05_size_price_binned.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_size_price_binned.parquet"
+    },
+    {
+      "key": "05_size_price_linear_models",
+      "path": "data/aggregates/05_size_price_linear_models.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_size_price_linear_models.parquet"
+    },
+    {
+      "key": "05_size_price_nonlinear_models",
+      "path": "data/aggregates/05_size_price_nonlinear_models.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/05_size_price_nonlinear_models.parquet"
+    },
+    {
+      "key": "06_claim_evidence_register",
+      "path": "data/aggregates/06_claim_evidence_register.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_claim_evidence_register.parquet"
+    },
+    {
+      "key": "06_dashboard_readiness",
+      "path": "data/aggregates/06_dashboard_readiness.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_dashboard_readiness.parquet"
+    },
+    {
+      "key": "06_export_manifest",
+      "path": "data/aggregates/06_export_manifest.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_export_manifest.parquet"
+    },
+    {
+      "key": "06_figure_validation",
+      "path": "data/aggregates/06_figure_validation.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_figure_validation.parquet"
+    },
+    {
+      "key": "06_final_issue_register",
+      "path": "data/aggregates/06_final_issue_register.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_final_issue_register.parquet"
+    },
+    {
+      "key": "06_final_research_decisions",
+      "path": "data/aggregates/06_final_research_decisions.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_final_research_decisions.parquet"
+    },
+    {
+      "key": "06_finalization_checks",
+      "path": "data/aggregates/06_finalization_checks.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_finalization_checks.parquet"
+    },
+    {
+      "key": "06_integrated_population_selection",
+      "path": "data/aggregates/06_integrated_population_selection.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_integrated_population_selection.parquet"
+    },
+    {
+      "key": "06_price_index_independent",
+      "path": "data/aggregates/06_price_index_independent.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_price_index_independent.parquet"
+    },
+    {
+      "key": "06_quality_policy_sensitivity",
+      "path": "data/aggregates/06_quality_policy_sensitivity.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_quality_policy_sensitivity.parquet"
+    },
+    {
+      "key": "06_registration_gap_independent",
+      "path": "data/aggregates/06_registration_gap_independent.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_registration_gap_independent.parquet"
+    },
+    {
+      "key": "06_reproducibility_acceptance",
+      "path": "data/aggregates/06_reproducibility_acceptance.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_reproducibility_acceptance.parquet"
+    },
+    {
+      "key": "06_research_findings",
+      "path": "data/aggregates/06_research_findings.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_research_findings.parquet"
+    },
+    {
+      "key": "06_research_sensitivity",
+      "path": "data/aggregates/06_research_sensitivity.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_research_sensitivity.parquet"
+    },
+    {
+      "key": "06_source_provenance",
+      "path": "data/aggregates/06_source_provenance.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_source_provenance.parquet"
+    },
+    {
+      "key": "06_subclaim_evidence_register",
+      "path": "data/aggregates/06_subclaim_evidence_register.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_subclaim_evidence_register.parquet"
+    },
+    {
+      "key": "06_temporal_quality_sensitivity",
+      "path": "data/aggregates/06_temporal_quality_sensitivity.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/06_temporal_quality_sensitivity.parquet"
+    },
+    {
+      "key": "budget_accessibility",
+      "path": "data/aggregates/budget_accessibility.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/budget_accessibility.parquet"
+    },
+    {
+      "key": "community_concentration_yearly",
+      "path": "data/aggregates/community_concentration_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/community_concentration_yearly.parquet"
+    },
+    {
+      "key": "market_quarterly",
+      "path": "data/aggregates/market_quarterly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/market_quarterly.parquet"
+    },
+    {
+      "key": "market_yearly",
+      "path": "data/aggregates/market_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/market_yearly.parquet"
+    },
+    {
+      "key": "price_tail_concentration",
+      "path": "data/aggregates/price_tail_concentration.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/price_tail_concentration.parquet"
+    },
+    {
+      "key": "property_mix_yearly",
+      "path": "data/aggregates/property_mix_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/property_mix_yearly.parquet"
+    },
+    {
+      "key": "registration_growth_contributions",
+      "path": "data/aggregates/registration_growth_contributions.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/registration_growth_contributions.parquet"
+    },
+    {
+      "key": "registration_mix_yearly",
+      "path": "data/aggregates/registration_mix_yearly.parquet",
+      "status": "BLOCKED",
+      "rows": null,
+      "columns": [],
+      "sha256": null,
+      "reason": "Missing artifact: data/aggregates/registration_mix_yearly.parquet"
+    }
+  ],
+  "caution": "VERIFIED_STRUCTURE confirms readability and required columns only; final scientific approval additionally requires manifest/hash binding and claim permissions."
+}

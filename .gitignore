@@ -1,0 +1,147 @@
+
+# ============================================================
+# DUBAI REAL ESTATE ANALYTICS V2
+# GitHub repository exclusions
+# ============================================================
+
+# ------------------------------------------------------------
+# Python environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------------------------------------
+# Python build and package artifacts
+# ------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ------------------------------------------------------------
+# Testing, linting, and coverage caches
+# ------------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# ------------------------------------------------------------
+# Jupyter notebook temporary files
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+.jupyter/
+*.nbconvert.ipynb
+
+# ------------------------------------------------------------
+# Local environment variables and secrets
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+
+# ------------------------------------------------------------
+# Local datasets
+# Keep original research datasets on your machine
+# ------------------------------------------------------------
+data/raw/**
+data/interim/**
+data/processed/**
+
+!data/raw/
+!data/interim/
+!data/processed/
+!data/**/.gitkeep
+
+# ------------------------------------------------------------
+# Generated analytical artifacts
+#
+# Keep all aggregate files locally.
+# Public deployment artifacts must be explicitly approved
+# before being committed.
+# ------------------------------------------------------------
+data/aggregates/**
+!data/aggregates/
+!data/aggregates/.gitkeep
+
+# ------------------------------------------------------------
+# Local development backups and archives
+# ------------------------------------------------------------
+phase2_ui_backup_*/
+phase3_dashboard_backup_*/
+phase3_refinement_backup_*/
+
+Dubai_V2_Dashboard_Phase1/
+Dubai_V2_Dashboard_Phase2/
+
+*_backup.zip
+*_Backup.zip
+*.bak
+*.tmp
+*.temp
+*.orig
+
+README_BEFORE_FINAL.md
+README_PHASE2.md
+
+# ------------------------------------------------------------
+# Local application and debugging logs
+# ------------------------------------------------------------
+*.log
+logs/
+debug/
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# IDE and editor-specific files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Operating system files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Research-generated outputs
+# Retain locally; curate separately for public publication
+# ------------------------------------------------------------
+reports/tables/**
+reports/figures/**
+
+# Preserve directory placeholder files if present
+!reports/tables/.gitkeep
+!reports/figures/.gitkeep

@@ -1,0 +1,51 @@
+[
+  {
+    "notebook": "notebooks/00_Data_Quality_Audit.ipynb",
+    "cells": 37,
+    "executed_code": 27,
+    "code_cells": 27,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/01_Market_Overview.ipynb",
+    "cells": 36,
+    "executed_code": 23,
+    "code_cells": 23,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/02_Price_Composition.ipynb",
+    "cells": 46,
+    "executed_code": 33,
+    "code_cells": 33,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/03_Market_Activity.ipynb",
+    "cells": 48,
+    "executed_code": 34,
+    "code_cells": 34,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/04_Community_Intelligence.ipynb",
+    "cells": 52,
+    "executed_code": 41,
+    "code_cells": 41,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/05_Market_Structure.ipynb",
+    "cells": 75,
+    "executed_code": 58,
+    "code_cells": 58,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "notebooks/06_Robustness_Validation.ipynb",
+    "cells": 76,
+    "executed_code": 64,
+    "code_cells": 64,
+    "error_outputs": 0
+  }
+]

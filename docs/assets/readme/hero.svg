@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="392" viewBox="0 0 1400 392" role="img" aria-labelledby="title desc">
+  <title id="title">Dubai Real Estate Analytics V2 — Research Intelligence</title>
+  <desc id="desc">A midnight-blue title banner with restrained teal data-line motifs, architectural forms, and the historical scope 2010–2025.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091b2d"/>
+      <stop offset="0.58" stop-color="#0e2840"/>
+      <stop offset="1" stop-color="#14364a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3cbbb4"/>
+      <stop offset="1" stop-color="#84e3cd"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79dccc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#79dccc" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#91c6cc" opacity="0.16"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="1400" height="392" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="392" fill="url(#bg)"/>
+    <rect x="776" y="0" width="624" height="392" fill="url(#dots)"/>
+    <path d="M1045 0L936 392M1106 0L997 392M1167 0L1058 392M1228 0L1119 392M1289 0L1180 392M1350 0L1241 392" stroke="#98c8c9" stroke-opacity="0.08" stroke-width="1.4"/>
+    <rect x="0" y="0" width="9" height="392" fill="url(#accent)"/>
+    <rect x="65" y="63" width="38" height="4" rx="2" fill="#69d2bf"/>
+    <text x="116" y="68" fill="#87dfd4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3.1">RESEARCH / INTELLIGENCE PLATFORM</text>
+    <text x="65" y="163" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-1.8">DUBAI REAL ESTATE</text>
+    <text x="65" y="222" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-1.8">ANALYTICS <tspan fill="#7cddce">V2</tspan></text>
+    <path d="M66 258H710" stroke="#6ad6c8" stroke-opacity="0.55" stroke-width="1.8"/>
+    <text x="65" y="294" fill="#c0d5de" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0.25">Beyond the headline. Accountable to the evidence.</text>
+    <text x="65" y="340" fill="#80b7c1" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.0">FROZEN HISTORICAL RESEARCH   /   2010—2025   /   NOMINAL AED</text>
+    <!-- Abstract analytical skyline; decorative, not a measured series. -->
+    <g opacity="0.36" stroke="#98c7d0" fill="none" stroke-width="1.6">
+      <rect x="877" y="228" width="50" height="164"/>
+      <rect x="927" y="176" width="61" height="216"/>
+      <rect x="988" y="253" width="56" height="139"/>
+      <rect x="1044" y="157" width="57" height="235"/>
+      <rect x="1101" y="219" width="60" height="173"/>
+      <rect x="1161" y="119" width="59" height="273"/>
+      <rect x="1220" y="191" width="64" height="201"/>
+      <rect x="1284" y="254" width="72" height="138"/>
+      <path d="M1190 119V73M1181 119L1190 78L1200 119"/>
+      <path d="M904 228V209M951 176V159M1069 157V130"/>
+    </g>
+    <path d="M833 294L909 278L964 288L1006 238L1059 252L1110 212L1157 224L1202 163L1256 182L1336 104" fill="none" stroke="#68d6c6" stroke-width="3.5" stroke-opacity="0.83"/>
+    <path d="M833 294L909 278L964 288L1006 238L1059 252L1110 212L1157 224L1202 163L1256 182L1336 104L1336 392L833 392Z" fill="url(#fade)" opacity="0.17"/>
+    <g fill="#7fe6d3" stroke="#0e2840" stroke-width="3">
+      <circle cx="1006" cy="238" r="5"/><circle cx="1110" cy="212" r="5"/><circle cx="1202" cy="163" r="5"/><circle cx="1336" cy="104" r="6"/>
+    </g>
+    <text x="1320" y="54" text-anchor="end" fill="#a4cbd2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">REGISTERED SALES · OBSERVATIONAL</text>
+  </g>
+</svg>
