@@ -1,0 +1,3 @@
+section,code,severity,detail,affected_rqs,source,detected_at
+COHORTS,COHORT_EXPORT_GAPS,QUALIFIED,One or more upstream cohort CSVs unavailable; source cohort recomputation remains valid,ALL,06 independent audit,06-20261124T040907Z
+RQ06,POINT_IN_TIME_SOURCE_LIMITATION,QUALIFIED,Publisher flags and whole-snapshot derived variables may not be point-in-time available; original out-of-time folds require separate recreation,RQ06,06 independent audit,06-20261124T040907Z

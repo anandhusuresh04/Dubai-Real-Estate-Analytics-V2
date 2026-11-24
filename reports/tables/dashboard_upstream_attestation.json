@@ -1,0 +1,1019 @@
+{
+  "attestation_version": 1,
+  "source_sha256": "8294c3dd83dde2e16e64eaf1ef155a1ad14ec16b6b39384561777afb8425417e",
+  "release_status": "APPROVED_WITH_QUALIFICATIONS",
+  "generated_utc": "2026-11-24T06:51:27.083460+00:00",
+  "artifacts": {
+    "market_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/market_yearly.parquet",
+      "sha256": "88ad0892361b43dde08c00ab909da0735fc5d2ac274cb4b7e107c914aa650e0e",
+      "rows": 16,
+      "columns": [
+        "year",
+        "n_transactions",
+        "recorded_gross_value_aed",
+        "mean_consideration_aed",
+        "median_consideration_aed",
+        "consideration_p10_aed",
+        "consideration_p25_aed",
+        "consideration_p75_aed",
+        "consideration_p90_aed",
+        "mean_median_ratio",
+        "observed_months",
+        "observed_quarters",
+        "property_types",
+        "areas_with_id",
+        "population",
+        "currency",
+        "n_transactions_yoy_pct",
+        "recorded_gross_value_aed_yoy_pct",
+        "mean_consideration_aed_yoy_pct",
+        "median_consideration_aed_yoy_pct"
+      ],
+      "paired_format_check": false
+    },
+    "market_quarterly": {
+      "verified": true,
+      "relative_path": "data/aggregates/market_quarterly.parquet",
+      "sha256": "23d5282fdb27fdc94cb40c1f5d968eda20a662946d5c93051aa6ea47d92e95ff",
+      "rows": 64,
+      "columns": [
+        "year",
+        "quarter",
+        "n_transactions",
+        "recorded_gross_value_aed",
+        "median_consideration_aed",
+        "active_areas",
+        "property_types",
+        "year_quarter",
+        "n_transactions_yoy_pct",
+        "recorded_gross_value_aed_yoy_pct"
+      ],
+      "paired_format_check": false
+    },
+    "property_mix_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/property_mix_yearly.parquet",
+      "sha256": "9dbcfcc1f76dceccc4eb20ca24cf1cf3b0d4510c2f5e6db6e449fd1649275240",
+      "rows": 192,
+      "columns": [
+        "year",
+        "property_group",
+        "usage_group",
+        "n_transactions",
+        "recorded_gross_value_aed",
+        "annual_n",
+        "annual_value",
+        "count_share_pct",
+        "value_share_pct"
+      ],
+      "paired_format_check": false
+    },
+    "registration_mix_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/registration_mix_yearly.parquet",
+      "sha256": "6313d4694f446577d5b4f49748d80640180237232a8e783efb304274cd0a50a6",
+      "rows": 64,
+      "columns": [
+        "year",
+        "registration_group",
+        "n_transactions",
+        "recorded_gross_value_aed",
+        "mean_consideration_aed",
+        "median_consideration_aed",
+        "year_n",
+        "year_value",
+        "count_share_pct",
+        "value_share_pct",
+        "population"
+      ],
+      "paired_format_check": false
+    },
+    "registration_growth_contributions": {
+      "verified": true,
+      "relative_path": "data/aggregates/registration_growth_contributions.parquet",
+      "sha256": "ea26bf5052575d0397ba0f3f933cf63fafb187234b847b8c71abec7f9bd98680",
+      "rows": 2,
+      "columns": [
+        "registration_group",
+        "n_transactions_2021",
+        "n_transactions_2025",
+        "recorded_gross_value_aed_2021",
+        "recorded_gross_value_aed_2025",
+        "delta_n_transactions",
+        "delta_recorded_gross_value_aed"
+      ],
+      "paired_format_check": false
+    },
+    "community_concentration_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/community_concentration_yearly.parquet",
+      "sha256": "0039802627f6533b5ef6a5ab2f30a45fa9f94e927d53bb4ea084ad29ada0bda5",
+      "rows": 16,
+      "columns": [
+        "year",
+        "active_known_areas",
+        "count_hhi",
+        "value_hhi",
+        "effective_count_communities",
+        "top5_count_share_pct",
+        "top10_count_share_pct",
+        "top10_value_share_pct",
+        "known_count_coverage_pct",
+        "known_value_coverage_pct"
+      ],
+      "paired_format_check": false
+    },
+    "budget_accessibility": {
+      "verified": true,
+      "relative_path": "data/aggregates/budget_accessibility.parquet",
+      "sha256": "59df243d0a1663c30c53489ee5b0fa420740568abeac9465f95c776f9771eb03",
+      "rows": 96,
+      "columns": [
+        "year",
+        "property_type",
+        "budget_aed",
+        "eligible_n",
+        "within_budget_n",
+        "within_budget_pct",
+        "cohort",
+        "currency"
+      ],
+      "paired_format_check": false
+    },
+    "price_tail_concentration": {
+      "verified": true,
+      "relative_path": "data/aggregates/price_tail_concentration.parquet",
+      "sha256": "c6b484869edf5fbdef4043d54206bc033b992ad6f0b0c2c9953df97282602f09",
+      "rows": 96,
+      "columns": [
+        "year",
+        "property_type",
+        "tail_fraction",
+        "eligible_n",
+        "total_value_aed",
+        "tail_n",
+        "tail_total_value_aed",
+        "tail_value_share_pct",
+        "cutoff_price_aed"
+      ],
+      "paired_format_check": false
+    },
+    "01_market_summary": {
+      "verified": true,
+      "relative_path": "reports/tables/01_market_summary.csv",
+      "sha256": "46736dfefa4d4182ac6d6240f8af5f4134b1f9016dfe2e1dfc195de4a787d44d",
+      "rows": 16,
+      "columns": [
+        "year",
+        "n_transactions",
+        "recorded_gross_value_aed",
+        "mean_consideration_aed",
+        "median_consideration_aed",
+        "consideration_p10_aed",
+        "consideration_p25_aed",
+        "consideration_p75_aed",
+        "consideration_p90_aed",
+        "mean_median_ratio",
+        "observed_months",
+        "observed_quarters",
+        "property_types",
+        "areas_with_id",
+        "population",
+        "currency",
+        "n_transactions_yoy_pct",
+        "recorded_gross_value_aed_yoy_pct",
+        "mean_consideration_aed_yoy_pct",
+        "median_consideration_aed_yoy_pct"
+      ],
+      "paired_format_check": false
+    },
+    "01_budget_summary": {
+      "verified": true,
+      "relative_path": "reports/tables/01_budget_summary.csv",
+      "sha256": "ba94d475717b4ad111c7599df24b072ca0acfa5c5191c41c21726c359647a273",
+      "rows": 96,
+      "columns": [
+        "year",
+        "property_type",
+        "budget_aed",
+        "eligible_n",
+        "within_budget_n",
+        "within_budget_pct",
+        "cohort",
+        "currency"
+      ],
+      "paired_format_check": false
+    },
+    "01_price_tail_summary": {
+      "verified": true,
+      "relative_path": "reports/tables/01_price_tail_summary.csv",
+      "sha256": "3c061ce794d28214b4fb63a83103a9d4fd352b55825f6f996a68dae76ed3661c",
+      "rows": 96,
+      "columns": [
+        "year",
+        "property_type",
+        "tail_fraction",
+        "eligible_n",
+        "total_value_aed",
+        "tail_n",
+        "tail_total_value_aed",
+        "tail_value_share_pct",
+        "cutoff_price_aed"
+      ],
+      "paired_format_check": false
+    },
+    "01_research_findings": {
+      "verified": true,
+      "relative_path": "reports/tables/01_research_findings.csv",
+      "sha256": "0423374c2742c4a8cc05048fb8330d783bf7c954b1d6f2f4d63bfc739906a3e0",
+      "rows": 12,
+      "columns": [
+        "claim_id",
+        "research_question",
+        "population",
+        "start_year",
+        "end_year",
+        "metric",
+        "start_value",
+        "end_value",
+        "delta",
+        "relative_change_pct",
+        "unit",
+        "direction",
+        "decision",
+        "evidence_table",
+        "sensitivity_evidence",
+        "interpretation",
+        "restriction"
+      ],
+      "paired_format_check": false
+    },
+    "02_price_index_endpoint": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_price_index_endpoint.parquet",
+      "sha256": "acdd422d122506bea3e38fc004ba32878a0774402492429399e5cb558d127f1b",
+      "rows": 5,
+      "columns": [
+        "design",
+        "threshold",
+        "weight_mode",
+        "segment",
+        "matched_cells",
+        "n_2021",
+        "n_2025",
+        "coverage_2021_pct",
+        "coverage_2025_pct",
+        "log_change",
+        "change_pct",
+        "effective_segments",
+        "top5_weight_pct"
+      ],
+      "paired_format_check": true
+    },
+    "02_price_index_historical": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_price_index_historical.parquet",
+      "sha256": "981f2cd8401b77ba7bf015579bca6fe90df9100f362fa81abfeaa340ba7c8a85",
+      "rows": 16,
+      "columns": [
+        "year",
+        "method",
+        "index_2021_100",
+        "matched_groups",
+        "coverage_pct",
+        "base_coverage_pct",
+        "effective_groups",
+        "supported"
+      ],
+      "paired_format_check": true
+    },
+    "02_price_index_historical_coverage": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_price_index_historical_coverage.parquet",
+      "sha256": "e6360765f1a5294e7d7505a1c114f52dd119facc7910108c042114ccfc28d243",
+      "rows": 16,
+      "columns": [
+        "year",
+        "matched_groups",
+        "coverage_pct",
+        "base_coverage_pct",
+        "effective_groups",
+        "supported"
+      ],
+      "paired_format_check": true
+    },
+    "02_price_index_specification_sensitivity": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_price_index_specification_sensitivity.parquet",
+      "sha256": "17266837ba2ccde810b5172d34557c5ef0c6a5ce741fc4492b902bbed431b519",
+      "rows": 20,
+      "columns": [
+        "design",
+        "threshold",
+        "weight_mode",
+        "segment",
+        "matched_cells",
+        "n_2021",
+        "n_2025",
+        "coverage_2021_pct",
+        "coverage_2025_pct",
+        "log_change",
+        "change_pct",
+        "effective_segments",
+        "top5_weight_pct"
+      ],
+      "paired_format_check": true
+    },
+    "02_raw_residential_price_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_raw_residential_price_yearly.parquet",
+      "sha256": "34d102d9483a36749652d50315ef0882fdc2a85fddda06554651b1501fb14af5",
+      "rows": 16,
+      "columns": [
+        "year",
+        "n",
+        "mean_psm",
+        "median_psm",
+        "mean_price",
+        "median_price",
+        "p10_psm",
+        "p25_psm",
+        "p50_psm",
+        "p75_psm",
+        "p90_psm"
+      ],
+      "paired_format_check": true
+    },
+    "02_price_mix_decomposition": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_price_mix_decomposition.parquet",
+      "sha256": "23756f77cf1e9fa6f8075248e1a62786e11926b8d83fba8a60c3ac5f9045bb9d",
+      "rows": 1,
+      "columns": [
+        "design",
+        "metric",
+        "within_log_points",
+        "composition_log_points",
+        "total_log_points",
+        "geomean_change_pct",
+        "n_groups",
+        "n_2021",
+        "n_2025"
+      ],
+      "paired_format_check": true
+    },
+    "02_area_mix_decomposition": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_area_mix_decomposition.parquet",
+      "sha256": "6dbceed97222281d7e92ebd3ec17edb796a2357bbb9cccefc017826577aa2ab2",
+      "rows": 1,
+      "columns": [
+        "design",
+        "metric",
+        "within_log_points",
+        "composition_log_points",
+        "total_log_points",
+        "geomean_change_pct",
+        "n_groups",
+        "n_2021",
+        "n_2025"
+      ],
+      "paired_format_check": true
+    },
+    "02_residential_size_mix": {
+      "verified": true,
+      "relative_path": "data/aggregates/02_residential_size_mix.parquet",
+      "sha256": "baa973d180d7550422a662ad047630d19fcf7edcef22298ab33e5611367c87c6",
+      "rows": 747,
+      "columns": [
+        "year",
+        "property_type_label",
+        "reg_type_label",
+        "room_known",
+        "size_coarse",
+        "n"
+      ],
+      "paired_format_check": true
+    },
+    "02_price_research_decisions": {
+      "verified": true,
+      "relative_path": "reports/tables/02_price_research_decisions.csv",
+      "sha256": "fff4823b86c16c25ef23117d03cb54750ee4b3ba86c264de5f9808e0604310e8",
+      "rows": 7,
+      "columns": [
+        "research_question",
+        "estimand",
+        "design",
+        "estimate_pct",
+        "matched_coverage_min_pct",
+        "uncertainty_interval",
+        "decision",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "03_activity_period_panel": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_activity_period_panel.parquet",
+      "sha256": "dafc11b4d0fc4a156441da22acf4f49924e445bf8415a6fe9efb9783e7bccaeb",
+      "rows": 80,
+      "columns": [
+        "year",
+        "transactions",
+        "registered_value_aed",
+        "median_consideration_aed",
+        "mean_consideration_aed",
+        "frequency",
+        "quarter",
+        "period"
+      ],
+      "paired_format_check": true
+    },
+    "03_registration_annual": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_registration_annual.parquet",
+      "sha256": "2ac281ae8bd2f7e156044434994a49ea682fcc575f3b1bff96c95962699e4ed4",
+      "rows": 32,
+      "columns": [
+        "year",
+        "reg",
+        "n",
+        "value_aed",
+        "transactions",
+        "registered_value_aed",
+        "count_share",
+        "value_share"
+      ],
+      "paired_format_check": true
+    },
+    "03_registration_growth_contributions": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_registration_growth_contributions.parquet",
+      "sha256": "495fa2a58313c65fcd02fdcd4b6783291fda382e1a7281ce15df882c31a9e7b2",
+      "rows": 3,
+      "columns": [
+        "reg",
+        "n0",
+        "n1",
+        "delta"
+      ],
+      "paired_format_check": true
+    },
+    "03_community_concentration_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_community_concentration_yearly.parquet",
+      "sha256": "6f29ee46b38ad7eef1b6063c8baedb1a149d613964865f1fef927a76b3382937",
+      "rows": 16,
+      "columns": [
+        "year",
+        "active_communities",
+        "count_hhi",
+        "value_hhi",
+        "count_effective",
+        "value_effective",
+        "top5_count_share",
+        "top10_count_share",
+        "top5_value_share",
+        "top10_value_share"
+      ],
+      "paired_format_check": true
+    },
+    "03_community_universe_sensitivity": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_community_universe_sensitivity.parquet",
+      "sha256": "240213cc5600db5cbb8908c8f56ca931259c3e904ce8b1c4f5b67459572c2d23",
+      "rows": 6,
+      "columns": [
+        "universe",
+        "year",
+        "area_universe_n",
+        "population_n",
+        "known_n",
+        "included_n",
+        "coverage_p0_pct",
+        "coverage_known_pct",
+        "active_communities",
+        "count_hhi",
+        "value_hhi",
+        "count_effective",
+        "value_effective",
+        "top5_count_share",
+        "top10_count_share",
+        "top5_value_share",
+        "top10_value_share"
+      ],
+      "paired_format_check": true
+    },
+    "03_activity_geography_coverage": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_activity_geography_coverage.parquet",
+      "sha256": "82123e21f853e12a58d6e297f7007d3b2a091e1e0098996511f9a1caff92a1fa",
+      "rows": 16,
+      "columns": [
+        "year",
+        "transactions",
+        "registered_value_aed",
+        "unknown_n",
+        "unknown_value_aed",
+        "known_geography_n",
+        "known_geography_value_aed",
+        "known_geography_count_pct",
+        "known_geography_value_pct"
+      ],
+      "paired_format_check": true
+    },
+    "03_activity_lead_lag_validation": {
+      "verified": true,
+      "relative_path": "data/aggregates/03_activity_lead_lag_validation.parquet",
+      "sha256": "785c10aa5d0706c65064bfee4777d02133bc964c1b1bb634273f98b6092e4c81",
+      "rows": 2,
+      "columns": [
+        "test_period",
+        "train_n",
+        "test_n",
+        "status",
+        "mae_baseline",
+        "mae_activity",
+        "mae_improvement_pct",
+        "directional_baseline",
+        "directional_activity",
+        "reason"
+      ],
+      "paired_format_check": true
+    },
+    "03_research_findings": {
+      "verified": true,
+      "relative_path": "reports/tables/03_research_findings.csv",
+      "sha256": "acaab953942014292f20cacfef1dcc5679f83ead8d516f3a8e214124f60e8cf7",
+      "rows": 7,
+      "columns": [
+        "claim_id",
+        "research_question",
+        "decision",
+        "interpretation",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "04_identity_registry": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_identity_registry.parquet",
+      "sha256": "0d81ea27ce8d0f55ccf87487f9054118f83734d19d79e7ca561fe570cd9191b6",
+      "rows": 203,
+      "columns": [
+        "area_key",
+        "p0_n",
+        "first_year",
+        "last_year",
+        "active_years",
+        "registered_value_aed",
+        "area_name",
+        "name_variants"
+      ],
+      "paired_format_check": true
+    },
+    "04_yearly_profile": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_yearly_profile.parquet",
+      "sha256": "5f054915c1578db44a420d1dd07404763dbe69638e5987ae4ac22036cf1bde57",
+      "rows": 3248,
+      "columns": [
+        "area_key",
+        "year",
+        "p0_transactions",
+        "registered_value_aed",
+        "p0_mean_consideration",
+        "p1_strict_n",
+        "median_psm",
+        "p25_psm",
+        "p75_psm",
+        "median_price_aed",
+        "median_area_sqm",
+        "area_name"
+      ],
+      "paired_format_check": true
+    },
+    "04_activity_year_panel": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_activity_year_panel.parquet",
+      "sha256": "26c827cb47d666d5dc4136a09aff240caa5aa2e5c1ab3cd2bf65992130854ece",
+      "rows": 3248,
+      "columns": [
+        "area_key",
+        "year",
+        "p0_transactions"
+      ],
+      "paired_format_check": true
+    },
+    "04_growth_validated": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_growth_validated.parquet",
+      "sha256": "4a06e48ad1103071ab6c61e7271167a1ae41656db72fb6964a54e86d1abf165d",
+      "rows": 203,
+      "columns": [
+        "area_key",
+        "area_name",
+        "p1_2021_n",
+        "p1_2025_n",
+        "selected_design",
+        "matched_price_eligible",
+        "selection_reason",
+        "change_pct",
+        "coverage_2021_pct",
+        "coverage_2025_pct",
+        "matched_groups",
+        "effective_groups",
+        "decision",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "04_matching_decisions": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_matching_decisions.parquet",
+      "sha256": "349bb08babc687884ce8748f9a2241f4ae4f18518f356609928e180979da6fcd",
+      "rows": 203,
+      "columns": [
+        "area_key",
+        "selected_design",
+        "matched_price_eligible",
+        "selection_reason"
+      ],
+      "paired_format_check": true
+    },
+    "04_growth_ineligible": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_growth_ineligible.parquet",
+      "sha256": "50110b9f249359d7a97569a96bca4f327dc6ffa2f3c9500a6626f03e5aa2b3df",
+      "rows": 169,
+      "columns": [
+        "area_key",
+        "area_name",
+        "p1_2021_n",
+        "p1_2025_n",
+        "selected_design",
+        "matched_price_eligible",
+        "selection_reason",
+        "change_pct",
+        "coverage_2021_pct",
+        "coverage_2025_pct",
+        "matched_groups",
+        "effective_groups",
+        "decision",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "04_dispersion_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_dispersion_yearly.parquet",
+      "sha256": "65e014a8447dcecd6cb4a8f91706e38a433ba52dcb34af0c17ab3eb2af5fae2c",
+      "rows": 2,
+      "columns": [
+        "year",
+        "eligible_communities",
+        "log_p90_p10",
+        "sd_log_medians",
+        "mean_log_medians",
+        "universe",
+        "submarket_reg",
+        "size_band"
+      ],
+      "paired_format_check": true
+    },
+    "04_activity_price_regimes": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_activity_price_regimes.parquet",
+      "sha256": "82f3e73217324c5f0b2e33f02af6c194099262de358e912183d8d5269cd1e036",
+      "rows": 203,
+      "columns": [
+        "area_key",
+        "area_name",
+        "selected_design",
+        "change_pct",
+        "decision",
+        "strict_count_change",
+        "regime",
+        "ci_low_pct",
+        "ci_high_pct"
+      ],
+      "paired_format_check": true
+    },
+    "04_price_stability": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_price_stability.parquet",
+      "sha256": "619b7578b4f9c300b06acbea475836fbcb92e07706e8f3f85b418043ecd495cc",
+      "rows": 66,
+      "columns": [
+        "area_key",
+        "design",
+        "eligible_links",
+        "total_supported_links",
+        "first_link",
+        "last_link",
+        "sd_log_link",
+        "max_drawdown_pct",
+        "min_link_base_n",
+        "min_link_end_n",
+        "median_effective_groups",
+        "definition"
+      ],
+      "paired_format_check": true
+    },
+    "04_stability_reliability": {
+      "verified": true,
+      "relative_path": "data/aggregates/04_stability_reliability.parquet",
+      "sha256": "db4718995a96ec591ceca38f3f0ff785910a145fc82bb72c5b0cadc6b4d672c2",
+      "rows": 66,
+      "columns": [
+        "area_key",
+        "design",
+        "eligible_links",
+        "total_supported_links",
+        "first_link",
+        "last_link",
+        "sd_log_link",
+        "max_drawdown_pct",
+        "min_link_base_n",
+        "min_link_end_n",
+        "median_effective_groups",
+        "definition",
+        "strict_active_years",
+        "max_consecutive_strict_years_n30",
+        "volatility_boot_reps",
+        "sd_log_link_ci_low",
+        "sd_log_link_ci_high",
+        "boot_sd_of_log_volatility",
+        "conditional_only",
+        "support_qualified",
+        "conditional_uncertainty_status"
+      ],
+      "paired_format_check": true
+    },
+    "04_research_findings": {
+      "verified": true,
+      "relative_path": "reports/tables/04_research_findings.csv",
+      "sha256": "c1c39eeb95038035d439a624c21b457471b0bf7ae2bcea10f69fa0b09209049a",
+      "rows": 6,
+      "columns": [
+        "claim_id",
+        "research_question",
+        "decision",
+        "interpretation",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "05_offplan_ready_matched_gap": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_offplan_ready_matched_gap.parquet",
+      "sha256": "2a1525d6ac27d1643b87532eb9272d6a029cf188a6fe719e058f0b6d126819be",
+      "rows": 1,
+      "columns": [
+        "strata",
+        "ready_n",
+        "offplan_n",
+        "effective_strata",
+        "largest_weight_pct",
+        "log_gap",
+        "gap_pct",
+        "median_log_gap",
+        "median_gap_pct",
+        "weight_mode",
+        "design",
+        "decision",
+        "target"
+      ],
+      "paired_format_check": true
+    },
+    "05_registration_matching_coverage": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_registration_matching_coverage.parquet",
+      "sha256": "c6f3255539120d8a20e1154f6b794f90a228a16727c91f8b08e580a96bb845f2",
+      "rows": 2,
+      "columns": [
+        "reg_type_label",
+        "parent_n",
+        "matched_n",
+        "coverage_pct"
+      ],
+      "paired_format_check": true
+    },
+    "05_registration_matched_cells": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_registration_matched_cells.parquet",
+      "sha256": "904fb9b0bd37deac55855424aac7cf4771120ddc7d1148f2467bd481b9a615cb",
+      "rows": 693,
+      "columns": [
+        "area_key",
+        "year",
+        "property_type_label",
+        "rooms_bucket",
+        "size_coarse",
+        "Ready",
+        "Off-Plan",
+        "pool_n",
+        "weight"
+      ],
+      "paired_format_check": true
+    },
+    "05_registration_cluster_uncertainty": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_registration_cluster_uncertainty.parquet",
+      "sha256": "4e189a8a7b54514443a38507eff37b299654a6dab0bf4936220fcc88b4eec3f5",
+      "rows": 1,
+      "columns": [
+        "design",
+        "clusters",
+        "replicates",
+        "ci_low_pct",
+        "ci_high_pct",
+        "cluster_se_log",
+        "jackknife_se_log",
+        "method",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "05_registration_gap_yearly": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_registration_gap_yearly.parquet",
+      "sha256": "56b3de9cb2a1ea5425405b563cf2e9e3d8d63d8cbb42589b512c5234c540fa26",
+      "rows": 6,
+      "columns": [
+        "strata",
+        "ready_n",
+        "offplan_n",
+        "effective_strata",
+        "largest_weight_pct",
+        "log_gap",
+        "gap_pct",
+        "median_log_gap",
+        "median_gap_pct",
+        "weight_mode",
+        "year",
+        "design",
+        "ready_parent_n",
+        "offplan_parent_n",
+        "ready_coverage_pct",
+        "offplan_coverage_pct",
+        "communities_x",
+        "comparability",
+        "communities_y",
+        "ci_low_pct",
+        "ci_high_pct",
+        "method"
+      ],
+      "paired_format_check": true
+    },
+    "05_size_price_binned": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_size_price_binned.parquet",
+      "sha256": "a38df598df486539c60be9b4af97b763808cdeda2ce22dcc9aeb67494dba334c",
+      "rows": 30,
+      "columns": [
+        "property_type_label",
+        "size_coarse",
+        "reg_type_label",
+        "n",
+        "median_area",
+        "median_price",
+        "median_psm",
+        "mean_log_price"
+      ],
+      "paired_format_check": true
+    },
+    "05_size_price_linear_models": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_size_price_linear_models.parquet",
+      "sha256": "32d6fdb5666120beac30659f2ea9df7eba8b0a6f7b600efe54a8d0393d347215",
+      "rows": 4,
+      "columns": [
+        "property_type_label",
+        "beta",
+        "se_hc0",
+        "se_cluster",
+        "n",
+        "communities",
+        "within_ss",
+        "group_count",
+        "rmse",
+        "outcome"
+      ],
+      "paired_format_check": true
+    },
+    "05_size_price_nonlinear_models": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_size_price_nonlinear_models.parquet",
+      "sha256": "686f97c3b94e901bd5c6a4d19bbfa754283c8d81f528b892d785b118a6b1c2c7",
+      "rows": 2,
+      "columns": [
+        "property_type_label",
+        "beta_low",
+        "beta_high",
+        "beta_hinge",
+        "se_low",
+        "se_high",
+        "se_hinge",
+        "hinge_t",
+        "hinge_ci_low",
+        "hinge_ci_high",
+        "rmse",
+        "n",
+        "communities",
+        "absorbed_cells",
+        "knot_log_area",
+        "knot_area_sqm",
+        "lower_supported_sqm",
+        "upper_supported_sqm",
+        "inference"
+      ],
+      "paired_format_check": true
+    },
+    "05_bedroom_contrast_support": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_bedroom_contrast_support.parquet",
+      "sha256": "4f06ec75fc5106b365aa94a228b70bc9930b60ff104a0f95d9b76d9ea4dc0a50",
+      "rows": 5,
+      "columns": [
+        "term",
+        "reference",
+        "category_level",
+        "paired_communities",
+        "area_overlap_communities",
+        "ref_n_in_pair_cells",
+        "category_n_in_pair_cells",
+        "ref_n_in_area_overlap_cells",
+        "category_n_in_area_overlap_cells",
+        "category_supported",
+        "area_overlap_supported",
+        "decision",
+        "restriction"
+      ],
+      "paired_format_check": true
+    },
+    "05_bedroom_adjusted": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_bedroom_adjusted.parquet",
+      "sha256": "24398e8a5862553b2daa5cf6c18e20f53760e35531440b2c9e41ea25477c24dc",
+      "rows": 6,
+      "columns": [
+        "term",
+        "beta",
+        "se_cluster",
+        "ci_low",
+        "ci_high",
+        "n",
+        "communities",
+        "absorbed_cells",
+        "reference",
+        "category",
+        "association_pct",
+        "ci_low_pct",
+        "ci_high_pct",
+        "paired_communities",
+        "area_overlap_communities",
+        "area_overlap_supported",
+        "decision"
+      ],
+      "paired_format_check": true
+    },
+    "05_parking_overlap_feasibility": {
+      "verified": true,
+      "relative_path": "data/aggregates/05_parking_overlap_feasibility.parquet",
+      "sha256": "3a01eeb30351df01f99c057a186ffe21cb51fe116725d84e4436ae197831e9bd",
+      "rows": 1,
+      "columns": [
+        "parent_n",
+        "both_known_n",
+        "communities",
+        "parking_yes_n",
+        "parking_no_n",
+        "overlap_cells",
+        "overlap_communities",
+        "overlap_n",
+        "overlap_yes_n",
+        "overlap_no_n"
+      ],
+      "paired_format_check": true
+    },
+    "05_research_findings": {
+      "verified": true,
+      "relative_path": "reports/tables/05_research_findings.csv",
+      "sha256": "329d1003a2a70fcd4ae3e8287e610fbda08d6268ff19547ac1d1e23b0000c3cd",
+      "rows": 4,
+      "columns": [
+        "rq",
+        "decision",
+        "interpretation",
+        "restriction",
+        "source_sha256"
+      ],
+      "paired_format_check": true
+    }
+  },
+  "unverified": [],
+  "note": "Local physical artifact snapshot, not an independent proof of scientific estimands."
+}
