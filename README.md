@@ -203,17 +203,31 @@ The nine deliberately restricted exhibits cover matched index/coverage (**RQ01**
 The application separates **data processing**, **scientific decision-making**, and **presentation**. A Streamlit rerun can subset already approved source rows, but cannot rerun the research pipeline or mint new claims.
 
 ```mermaid
-flowchart TD
-    A["Frozen registered-sales snapshot"] --> B["src/ · validation, cleaning, features, analysis"]
-    B --> C["notebooks/00–05 · prespecified empirical investigations"]
-    C --> D["notebooks/06 · independent robustness and release audit"]
-    D --> E["Frozen exports · data/aggregates and reports/tables"]
-    E --> F["app_core/ · registry, readback, hashes, permissions"]
-    F --> G["app/ · six Streamlit research workspaces"]
-    H["scripts/ · inventory, attestation, coverage audit"] -.-> F
-    T["tests/ · research and dashboard contract tests"] -.-> B
+flowchart TB
+    A["Frozen Sales Dataset"]
+    B["src/ - Data Processing"]
+    C["Notebooks 00-05 - Research"]
+    D["Notebook 06 - Scientific Audit"]
+    E["Verified Research Artifacts"]
+    F["app_core/ - Integrity and Permissions"]
+    G["app/ - Streamlit Dashboard"]
+    H["scripts/ - Artifact Verification"]
+    T["tests/ - Automated Validation"]
+
+    A --> B --> C --> D --> E --> F --> G
+    H -.-> F
+    T -.-> D
     T -.-> F
-    T -.-> G
+
+    classDef source fill:#122B40,stroke:#4CC9B4,color:#FFFFFF
+    classDef process fill:#19384E,stroke:#719DB4,color:#FFFFFF
+    classDef audit fill:#184D54,stroke:#4CC9B4,color:#FFFFFF
+    classDef product fill:#23635F,stroke:#4CC9B4,color:#FFFFFF
+
+    class A source
+    class B,C,E process
+    class D,F,H,T audit
+    class G product
 ```
 
 | Path | Responsibility |
