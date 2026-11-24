@@ -1,33 +1,97 @@
-<p align="center">
-  <img src="docs/assets/readme/hero.svg" alt="Dubai Real Estate Analytics V2 — Research Intelligence, 2010–2025" width="100%" />
-</p>
-
-<h1 align="center">Dubai Real Estate Analytics V2</h1>
 
 <div align="center">
 
-<p><strong>A market intelligence platform where the evidence sets the limits of the story.</strong></p>
+  <img
+    src="docs/assets/readme/hero.svg"
+    alt="Dubai Real Estate Analytics V2 — Research Intelligence, 2010–2025"
+    width="100%"
+  />
 
-<p>A research-led, six-page Streamlit experience examining Dubai's <strong>registered property sales</strong> through transaction activity, price composition, community comparability, market structure, and separately audited scientific claims.</p>
+  <h1>Dubai Real Estate Analytics V2</h1>
 
-<p><strong>Frozen historical window: 2010–2025</strong> &nbsp;·&nbsp; <strong>Nominal AED</strong> &nbsp;·&nbsp; <strong>Observed sales, not listings</strong></p>
+  <p>
+    <strong>A market intelligence platform where the evidence sets the limits of the story.</strong>
+  </p>
 
-<p>
-  <a href="#explore-the-dashboard"><strong>Explore the dashboard</strong></a> &nbsp;·&nbsp;
-  <a href="#research-and-findings"><strong>Examine the research</strong></a> &nbsp;·&nbsp;
-  <a href="#architecture"><strong>Architecture</strong></a> &nbsp;·&nbsp;
-  <a href="#run-the-project"><strong>Run locally</strong></a> &nbsp;·&nbsp;
-  <a href="#scientific-integrity"><strong>Scientific integrity</strong></a>
-</p>
+  <p>
+    An evidence-driven, six-page Streamlit research platform exploring
+    <strong>Dubai's registered real estate transactions</strong>
+    through market activity, price composition, community intelligence,
+    market structure, and independently validated scientific findings.
+  </p>
 
-<br />
+  <p>
+    <strong>2010–2025 Historical Coverage</strong>
+    &nbsp;•&nbsp;
+    <strong>Nominal AED</strong>
+    &nbsp;•&nbsp;
+    <strong>Registered Sales, Not Listings</strong>
+  </p>
 
-<img src="https://img.shields.io/badge/Python-Research-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=flat-square&amp;logo=plotly&amp;logoColor=white" alt="Plotly" />
-<img src="https://img.shields.io/badge/Pandas-Analysis-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" />
-<img src="https://img.shields.io/badge/PyArrow-Parquet-222222?style=flat-square&amp;logo=apache&amp;logoColor=white" alt="PyArrow" />
-<img src="https://img.shields.io/badge/pytest-215%20local%20passes-0A9EDC?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" />
+  <a href="https://dxb-insights.streamlit.app/">
+    <img
+      src="https://img.shields.io/badge/EXPLORE_LIVE_DASHBOARD-Launch_App-087F8C?style=for-the-badge&logo=streamlit&logoColor=white"
+      alt="Launch Live Dashboard"
+    />
+  </a>
+  &nbsp;
+  <a href="https://github.com/anandhusuresh04/Dubai-Real-Estate-Analytics-V2">
+    <img
+      src="https://img.shields.io/badge/GITHUB-View_Source-24292F?style=for-the-badge&logo=github&logoColor=white"
+      alt="View GitHub Repository"
+    />
+  </a>
+
+  <br />
+  <br />
+
+  <sub>
+    <strong>LIVE APPLICATION</strong><br />
+    <a href="https://dxb-insights.streamlit.app/">
+      https://dxb-insights.streamlit.app/
+    </a>
+  </sub>
+
+  <br />
+  <br />
+
+  <a href="#explore-the-dashboard"><strong>Dashboard</strong></a>
+  &nbsp;•&nbsp;
+  <a href="#research-and-findings"><strong>Research</strong></a>
+  &nbsp;•&nbsp;
+  <a href="#architecture"><strong>Architecture</strong></a>
+  &nbsp;•&nbsp;
+  <a href="#run-the-project"><strong>Run Locally</strong></a>
+  &nbsp;•&nbsp;
+  <a href="#scientific-integrity"><strong>Scientific Integrity</strong></a>
+
+  <br />
+  <br />
+
+  <img
+    src="https://img.shields.io/badge/Python-Research-3776AB?style=flat-square&logo=python&logoColor=white"
+    alt="Python"
+  />
+  <img
+    src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"
+    alt="Streamlit"
+  />
+  <img
+    src="https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=flat-square&logo=plotly&logoColor=white"
+    alt="Plotly"
+  />
+  <img
+    src="https://img.shields.io/badge/Pandas-Analysis-150458?style=flat-square&logo=pandas&logoColor=white"
+    alt="Pandas"
+  />
+  <img
+    src="https://img.shields.io/badge/PyArrow-Parquet-222222?style=flat-square"
+    alt="PyArrow"
+  />
+  <img
+    src="https://img.shields.io/badge/pytest-215%20Tests%20Passing-0A9EDC?style=flat-square&logo=pytest&logoColor=white"
+    alt="pytest — 215 Local Tests Passing"
+  />
 
 </div>
 
@@ -35,18 +99,51 @@
 
 <table>
   <tr>
-    <td align="center" width="25%"><strong>1,382,848</strong><br /><sub>Records in the frozen source snapshot</sub></td>
-    <td align="center" width="25%"><strong>15</strong><br /><sub>Registered research questions</sub></td>
-    <td align="center" width="25%"><strong>6</strong><br /><sub>Interactive research workspaces</sub></td>
-    <td align="center" width="25%"><strong>215 / 215</strong><br /><sub>Local automated tests passing¹</sub></td>
+    <td align="center" width="25%">
+      <strong>1,382,848</strong>
+      <br />
+      <sub>Frozen Source Records</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>15</strong>
+      <br />
+      <sub>Research Questions</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>6</strong>
+      <br />
+      <sub>Interactive Dashboard Pages</sub>
+    </td>
+    <td align="center" width="25%">
+      <strong>215 / 215</strong>
+      <br />
+      <sub>Local Automated Tests Passing</sub>
+    </td>
   </tr>
 </table>
 
-> **The difference:** Most market dashboards stop at a chart. This project carries the chain of evidence further—**defined populations → prespecified estimands → research outputs → independent reconstruction → file-integrity checks → claim-level publication permissions → interactive visualizations.** A result that fails its scientific publication gate is not silently displayed as an insight.
+### Beyond Conventional Market Dashboards
 
-<sub>¹ Latest user-executed verification on 24 November 2026: <code>python -m pytest -q -W error</code> → 215 passed. This is a local test result, not a claim of an automated CI build.</sub>
+Most market dashboards stop at visualization.
+
+**Dubai Real Estate Analytics V2 goes further:** every published analytical finding is governed by an auditable chain of evidence.
+
+**Defined Populations → Prespecified Estimands → Research Outputs → Independent Reconstruction → File-Integrity Verification → Claim-Level Publication Gates → Interactive Visualizations**
+
+The platform distinguishes between supported findings, qualified interpretations, and inconclusive evidence.
+
+**Scientific integrity is a release requirement, not a disclaimer.**
+
+> **Verification note:** Latest reported local validation on
+> 24 November 2026:
+> `python -m pytest -q -W error` — **215 tests passed**.
+> This result reflects local execution and does not imply
+> automated CI verification.
+
+
 
 ---
+
 
 ## The project at a glance
 
